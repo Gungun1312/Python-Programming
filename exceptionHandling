@@ -1,0 +1,20 @@
+num1 = int(input("inpiut the first number"))
+num2 = int(input("inpiut the first number"))
+
+result = num1/num2
+
+print("so {num1}/ {num2} = {result}")
+
+
+try:
+    num1 = int(input("inpiut the first number"))
+    num2 = int(input("inpiut the first number"))
+
+    result = num1/num2
+
+    print(f"so {num1}/ {num2} = {result}")
+except ZeroDivisionError as zde:
+    print("ZeroDivisionError is illegal")
+    print("ZeroDivisionError : error type ", type(zde))
+   # print("ZerodivisionError: error message :" zde)
+print("End of program...")
